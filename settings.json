@@ -1,0 +1,63 @@
+{
+  "splash-screen": {
+    "enabled": true,
+    "delay": 750,
+    "width": 676,
+    "height": 235
+  },
+  "window": {
+    "width": 1024,
+    "height": 705,
+    "fullscreen": false,
+    "theme": "default"
+  },
+  "menubar": {
+    "debug": false,
+    "all-windows": false
+  },
+  "workspace": {
+    "layout": "default.json",
+    "scale-ui": {
+      "enabled": false,
+      "delay": 50
+    },
+    "ctrl-tab": true,
+    "grid": {
+      "enabled": false,
+      "horizontal": 0,
+      "vertical": 0,
+      "sensitivity": 10.0,
+      "delay": 200
+    }
+  },
+  "internal-window": {
+    "mouse-borders": true,
+    "extractable": true
+  },
+  "simulation": {
+    "default-CPU-frequency": 4.0,
+    "pipelined": false,
+    "annotations": true
+  },
+  "editor": {
+    "font-family": "monospace",
+    "font-size": 18,
+    "initial-file": "",
+    "scroll-speed": 0.05,
+    "soft-tabs": true,
+    "theme": "ace/theme/monokai",
+    "user-control-during-execution": false,
+    "vim-mode": false,
+    "wrap": false,
+    "continuous-assembly": true,
+    "continuous-assembly-refresh-period": 1000,
+    "save-before-run": true
+  },
+  "logger": {
+    "emphasise": true,
+    "font-size": 15
+  },
+  "hlvis": {
+    "auto-open": true
+  }
+}

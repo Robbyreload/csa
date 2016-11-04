@@ -1,0 +1,85 @@
+/* note: top, right, bottom, left */
+
+.window {
+    -fx-background-color: linear-gradient(to bottom, #dddddd 0%,#aaaabb 100%);
+    -fx-opacity: 0.95;
+    -fx-font-family: "Sans";
+}
+
+.window:external {
+	-fx-opacity: 1;
+}
+
+.window:hover {
+    -fx-opacity: 1;
+}
+
+.window-titlebar {
+    -fx-opacity: 1;
+    -fx-background-color: #454545;
+    -fx-padding: 2px;
+    -fx-font-size: 16px;
+    -fx-font-family: "DejaVu Sans Mono";
+    -fx-stroke-width: 0.2;
+    -fx-border-width: 1;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+
+.window-titlebar:focus {
+    -fx-background-color: #303030;
+}
+
+.custom-close-icon {
+    -fx-skin: "jfxtras.internal.scene.control.skin.window.DefaultWindowIconSkin";
+    -fx-shape: null;
+}
+
+
+/* emphasis */
+.window.highlighting .window-titlebar{
+    -fx-background-color: #ED5F5F;
+}
+
+
+/* tab styles */
+.tab-header-area {
+    -fx-padding: 0px; /* no gap between tab and top of header area */
+}
+.tab-pane
+{
+    -fx-tab-min-width: 5em;   /* so that all the tabs are roughly the same width */
+    /* locks the tab height */
+    -fx-tab-min-height: 25px;
+    -fx-tab-max-height: 25px;
+}
+.tab:selected {
+    /* prevent the ugly blue borders for the selected tab */
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: grey;
+    -fx-font-size: 14px;
+}
+.tab:selected .tab-label
+{
+    -fx-text-fill: black;
+}
+
+/* custom styles */
+.logger-input {
+    -fx-font-size: 11pt;
+}
+.logger-submit {
+    -fx-font-size: 11pt;
+}
+
+.table-view {
+    -fx-font-size: 11pt;
+}
+:prompting {
+	-fx-text-inner-color: #888888;
+}
